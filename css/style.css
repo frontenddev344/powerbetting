@@ -1,0 +1,442 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.main-wrapper {
+    background: url(../images/main_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+.main-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 46%);
+    z-index: -1;
+}
+
+/* header css start */
+header.header {
+    padding: 14px 0;
+    border-bottom: 1px solid #343434;
+    background-color: #00000080;
+}
+
+.header-logo a {
+    text-decoration: none;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+
+.header-logo img {
+    width: 100%;
+    max-width: 230px;
+}
+
+
+.hero-section {
+    padding: 40px 0;
+}
+
+.hero-content h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-size: 30px;
+}
+
+.hero-content h1 span {
+    color: #febd00;
+}
+
+.review-btn {
+    background: #febd00;
+    color: #000;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 12px 36px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(24, 0, 58, 0.18);
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    outline: none;
+    display: inline-block;
+    border: 1px solid #febd00;
+}
+
+.review-btn:hover {
+    background: transparent;
+    color: #febd00;
+}
+
+.pr-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.top-canadian-casinos {
+    margin-bottom: 20px;
+}
+
+.top-canadian-casinos h2 {
+    color: #ffff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.top-canadian-casinos h2 span {
+    color: #febd00;
+}
+
+
+
+
+
+
+
+
+
+
+
+.betting-sites-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.tp-heding-text h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tp-heding-text p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.pr-container {
+    margin-bottom: 8px;
+}
+
+.table-header {
+    width: 100%;
+    background: #cc9500;
+    display: flex;
+}
+
+.tp-heding-text {
+    margin-bottom: 30px;
+}
+
+.table-header span {
+    padding: 10px 10px;
+    font-size: 1.1rem;
+    width: 20%;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pr-list .pr-item {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
+    text-align: center;
+    padding: 0 0;
+    transition: all .3s;
+    min-height: 95px;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    border: 1px solid rgba(254, 189, 0, 0.4);
+    box-shadow: 0 4px 15px rgba(254, 189, 0, 0.3), 0 0 10px rgba(254, 189, 0, 0.2);
+}
+
+.pr-list .pr-item .pr-item-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.pr-item-mobile .pr-item-content {
+    margin-bottom: 8px;
+}
+
+.pr-list .pr-item .pr-img-wrapper {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 201px;
+    padding: 12px;
+    box-shadow: 0 0 7px 0 rgba(254, 189, 0, 0.3);
+}
+
+.pr-img-wrapper.betibet-logo-wrapper {
+    background: #000 !important;
+}
+
+.pr-list .pr-item .pr-title-block {
+    width: 24%;
+    padding: 5px 15px;
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.promote-star {
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.promote-star span {
+    color: #fff;
+}
+
+.numer {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.numer h4 {
+    color: #fff;
+}
+
+.button-tp {
+    width: 20%;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.star svg {
+    color: #f4bd51;
+    width: 20px;
+    height: 20px;
+}
+
+.pr-item-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.pr-item-content .left {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 1px 0 4px 0 rgba(254, 189, 0, 0.3), 0 0 8px rgba(254, 189, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    color: #fff;
+}
+
+.pr-item-content .right {
+    position: relative;
+    width: 50%;
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(254, 189, 0, 0.3), inset 0 0 5px rgba(254, 189, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 15px;
+    flex: 1;
+
+    text-align: center;
+}
+
+.pr-description {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.pr-description span {
+    color: #fff;
+}
+
+.right .pr-sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.pr-title {
+    font-size: 13px;
+    color: #fff;
+}
+
+.pr-item-content .right .button-tp {
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.left .star svg {
+
+    width: 15px;
+    height: 15px;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+
+.content-tp-footer {
+    background: rgba(0, 0, 0, .6);
+    padding: 20px;
+}
+
+.content-tp-footer-inner h5 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.content-tp-footer-inner p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content-tp-footer-inner ul li {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content-tp-footer-inner ul li strong {
+    color: #febd00;
+}
+
+.content-tp-footer-inner ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    color: #febd00;
+    width: 6px;
+    height: 6px;
+    background: #febd00;
+    border-radius: 50%;
+    top: 10px;
+
+}
+
+footer.footer {
+    background: #000;
+    padding: 20px 0;
+    border-top: 1px solid #343434;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #febd00;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .desktop-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+    .review-btn {
+        padding: 8px 30px;
+    }
+}
