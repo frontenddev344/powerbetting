@@ -170,10 +170,8 @@ header.header {
 .pr-list .pr-item {
     display: flex;
     align-items: center;
-    background: transparent;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    color: #fff;
+    background: #fff;
+    color: #333;
     text-align: center;
     padding: 0 0;
     transition: all .3s;
@@ -198,16 +196,14 @@ header.header {
 }
 
 .pr-list .pr-item .pr-img-wrapper {
-    background: transparent;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: #fff;
     width: 201px;
     padding: 12px;
     box-shadow: 0 0 7px 0 rgba(254, 189, 0, 0.3);
 }
 
 .pr-img-wrapper.betibet-logo-wrapper {
-    background: #000 !important;
+    background: #fff !important;
 }
 
 .pr-list .pr-item .pr-title-block {
@@ -220,7 +216,7 @@ header.header {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    color: #fff;
+    color: #333;
 }
 
 .promote-star {
@@ -231,11 +227,11 @@ header.header {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    color: #fff;
+    color: #333;
 }
 
 .promote-star span {
-    color: #fff;
+    color: #333;
 }
 
 .numer {
@@ -247,11 +243,11 @@ header.header {
     text-align: center;
     align-items: center;
     gap: 5px;
-    color: #fff;
+    color: #333;
 }
 
 .numer h4 {
-    color: #fff;
+    color: #333;
 }
 
 .button-tp {
@@ -285,9 +281,7 @@ header.header {
 }
 
 .pr-item-content .left {
-    background: transparent;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: #fff;
     box-shadow: 1px 0 4px 0 rgba(254, 189, 0, 0.3), 0 0 8px rgba(254, 189, 0, 0.2);
     display: flex;
     align-items: center;
@@ -297,16 +291,14 @@ header.header {
     width: 50%;
     flex: 1;
     padding: 10px;
-    color: #fff;
+    color: #333;
 }
 
 .pr-item-content .right {
     position: relative;
     width: 50%;
     display: flex;
-    background: transparent;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: #fff;
     box-shadow: 0 0 10px rgba(254, 189, 0, 0.3), inset 0 0 5px rgba(254, 189, 0, 0.1);
     align-items: center;
     justify-content: center;
@@ -323,23 +315,27 @@ header.header {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    color: #fff;
+    color: #333;
 }
 
 .pr-description span {
-    color: #fff;
+    color: #333;
+}
+
+.pr-sub-title {
+    color: #333;
 }
 
 .right .pr-sub-title {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #fff;
+    color: #333;
 }
 
 .pr-title {
     font-size: 13px;
-    color: #fff;
+    color: #333;
 }
 
 .pr-item-content .right .button-tp {
