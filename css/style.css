@@ -456,4 +456,7 @@ footer.footer {
     .right .pr-sub-title {
         font-size: 17px;
     }
+    .header-logo img {
+        max-width: 180px;
+    }
 }
